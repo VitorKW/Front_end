@@ -1,0 +1,19 @@
+h2{
+    color:blueviolet;
+}
+
+.classe1{
+    color:pink;
+}
+.classe2{
+    color:goldenrod;
+}
+
+#id_1{
+    color:rgb(65, 65, 161);
+    text-align: center;
+}
+#id_2{
+    color:red;
+    text-align: center;
+}
