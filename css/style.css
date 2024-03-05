@@ -17,3 +17,16 @@ h2{
     color:red;
     text-align: center;
 }
+.background-image{
+    background-image: url(/assets/onix.jpg);    
+    width: 600px;
+    height: 600px;
+    color:rgb(255, 255, 255);
+    padding:20px 20px 0px 20px;
+    text-align: justify;
+    font-size: 30px;
+    letter-spacing: 3px;
+    background-position: center;
+    background-size: cover;
+    
+}
