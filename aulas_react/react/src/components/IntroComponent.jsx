@@ -1,3 +1,4 @@
+
 function IntroComponent(){
     const a = 5, b = 2, nome = 'Vitor';
     const aluno = {
@@ -14,4 +15,16 @@ function IntroComponent(){
     )
 }
 
-export default IntroComponent
+import {useState} from 'react'
+function MyButtonComponent() {
+    const[counter, setCounter] = useState(0);
+
+    const addCounterOnClick = () => setCounter (counter + 1)
+    return (
+        <button onClick={addCounterOnClick}>
+            Clicou {counter} vezes
+        </button>
+    )
+}
+
+export default MyButtonComponent

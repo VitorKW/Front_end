@@ -1,19 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import IntroComponent from './components/IntroComponent'
+import AtividadeComponent from './components/AtividadeComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const products = [
+    {id: 1, name: 'Feijão kg', preco: 'R$12,00', estoque: 30  },
+    {id: 2, name: 'Tomate kg', preco: 'R$4,00', estoque: 10  },
+    {id: 3, name: 'Cebola kg', preco: 'R$8,00', estoque: 15  },
+    {id: 4, name: 'Carne kg', preco: 'R$40,00', estoque: 2  }
 
-  return (
-    <>
-    <h1>Componente Principal</h1>
-    <IntroComponent />
-    </>
-  )
+  ]
+return(
+  <div>
+    <AtividadeComponent products = {products}/>
+  </div>
+)
 }
-
 
 export default App
